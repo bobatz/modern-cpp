@@ -1,3 +1,8 @@
 *.out
 *.o
 *.a
+include/
+lib/
+bin/
+build/
+fmt-10.2.1/
