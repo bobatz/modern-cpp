@@ -5,3 +5,5 @@ fi
 cd build
 cmake ..
 make
+cd ..
+./build/tests/homework_5_test

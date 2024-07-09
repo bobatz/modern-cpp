@@ -2,8 +2,8 @@ find_package(Catch2 REQUIRED)
 include(CTest)
 include(Catch)
 
-#add_library(sifts_internal SHARED sifts_internal.cpp)
-#target_link_libraries(sifts_internal ${OpenCV_LIBS})
+add_library(sifts_internal SHARED sifts_internal.cpp)
+target_link_libraries(sifts_internal ${OpenCV_LIBS})
 
 set(TEST_BINARY ${PROJECT_NAME}_test)
 add_executable(${TEST_BINARY}
