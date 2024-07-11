@@ -3,6 +3,7 @@
 *.a
 *.png
 *.bin
+data/
 include/
 lib/
 bin/
