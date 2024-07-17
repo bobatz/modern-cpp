@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
-if [ ! -d "build" ]; then
+if [ -d "build" ]; then
+  rm -r build
   mkdir build
 fi
 cd build
