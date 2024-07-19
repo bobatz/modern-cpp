@@ -8,6 +8,7 @@ add_executable(test_bow_dictionary test_bow_dictionary.cpp)
 target_link_libraries(test_bow_dictionary
                       bow_dictionary
                       serialization
+                      convert_dataset
                       GTest::Main)
 gtest_discover_tests(test_bow_dictionary WORKING_DIRECTORY
                      ${CMAKE_CURRENT_SOURCE_DIR})
